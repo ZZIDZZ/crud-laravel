@@ -35,3 +35,4 @@ jobs:
           script: |
             cd /home/${{ secrets.SSH_USER }}/laravel.zzidzz.tech
             composer install
+            php artisan migrate
